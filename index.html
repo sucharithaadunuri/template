@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+#total{
+    display: inline-block;
+}
+.navbar{
+    width: 100%;
+    background-color:darkgrey;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navbar,ul{
+list-style: none;
+display: flex;
+
+}
+
+.navbar,a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+.child{
+position: absolute;
+top: 50%;
+left: 45%;
+    
+}
+.imageheading{
+    background-color:black;
+    padding: 10px 10px;
+    opacity: 0.5;
+    color: aliceblue;
+
+}
+.house-name{
+    background-color: rgb(18, 222, 154);
+    width: 30%;
+    padding: 10px;
+    position: absolute;
+    top: 25%;
+}
+.card_container{
+    display: flex;
+    justify-content: center;
+}
+.house{
+    margin: 5px;
+}
+.summer_house{
+    
+    position: relative;
+    top: 0;
+    left:0;
+    margin: 5px;
+
+}
+.child_house{
+    position: absolute;
+    top: 0;
+    background-color: rgb(215, 207, 46);
+    padding: 5px;
+}
+.content2{
+    width: 280px;
+    margin: 10px;
+   
+}
+.cardresponse{
+    
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   column-gap: 5px;
+
+}
+.dead{
+    width: 280px;
+    height: 30px;
+}
+.ok{
+    padding: 40px;
+    margin: 5px;
+}
+.okok{
+    padding: 40px;
+    margin: 5px;
+}
+.gap{
+    padding: 40px;
+}
+.text{
+   padding: 40px;
+   margin: 2px;
+
+}
+.image2{
+    width: 500px;
+    padding: 60px;
+}
+.contact{
+    padding: 40px;
+}
+.para{
+    padding: 40px;
+}
+.hii{
+    height: 40px;
+}
+.image{
+    width: 1580px;
+}
+.nav:hover{
+background-color: azure;
+
+}
+.message{
+    
+    padding: 10px;
+    background-color: black;
+    color:aliceblue
+}
+.message:hover{
+    background-color:rgb(225, 193, 193)
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar"> 
+        <h1>B R Architects</h1> 
+        <ul>
+            <li class="nav"><a href="">project</a></li>
+            <li class="nav"><a href="">about</a></li>
+            <li class="nav"><a href="">contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container"> 
+     <img src="https://www.w3schools.com/w3images/architect.jpg" class="image">
+     <div class="child">
+        <h1><span class="imageheading">BR</span> PROJECTS</h1>
+     </div>
+    </div>
+    
+   
+
+    <!----------projects----------->
+
+   <div class="project">
+    <h1 class="gap">PROJECTS</h1>
+   </div> 
+    
+   <div class="card_container">
+        <div class="summer_house">
+                <img src="https://www.w3schools.com/w3images/house5.jpg" width="365" >
+                <div class="child_house">
+                    <h1>Summer House</h1>
+                </div>
+                
+        </div>
+    
+
+    
+        <div class="summer_house">
+                <img src="https://www.w3schools.com/w3images/house2.jpg" width="365">
+                <div class="child_house">
+                    <h1>Brick house</h1>
+                </div>
+        </div>
+       
+    
+
+    <div class="summer_house">
+            <img src="https://www.w3schools.com/w3images/house4.jpg" width="365">
+            <div class="child_house">
+                <h1>Barn house</h1>
+            </div>
+    </div>    
+
+
+    <div class="summer_house">
+            <img src="https://www.w3schools.com/w3images/house3.jpg" width="365">
+            <div class="child_house">
+                <h1>Renovated</h1>
+            </div>
+    </div>
+</div> 
+
+<div>
+    <h2 class="ok">About</h2><hr>
+    <p class="okok">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+
+<div class="cardresponse">
+<div class="content2">
+    <img src="https://www.w3schools.com/w3images/team2.jpg" width="360">
+    <h3>John Doe</h3>
+
+<p>CEO & Founder</p>
+<div class="deadline">
+    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+         </p>
+         <button class="dead">contact</button>
+</div>
+</div>
+
+<div class="content2">
+    <img src="https://www.w3schools.com/w3images/team1.jpg" width="360">
+    <h3>Jane Doe</h3>
+
+<p>CEO & Founder</p>
+<div class="deadline">
+    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+         </p>
+         <button class="dead">contact</button>
+</div>
+</div>
+
+<div class="content2">
+    <img src="https://www.w3schools.com/w3images/team3.jpg" width="360">
+    <h3>Mike Ross</h3>
+
+<p>CEO & Founder</p>
+<div class="deadline">
+    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+         </p>
+         <button class="dead">contact</button>
+</div>
+</div>
+
+<div class="content2">
+    <img src="https://www.w3schools.com/w3images/team4.jpg" width="360">
+    <h3>Dan Star</h3>
+
+<p>CEO & Founder</p>
+<div class="deadline">
+    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+         </p>
+         <button class="dead">contact</button>
+</div>
+</div>
+
+</div>
+<h2 class="contact">contact</h2><hr>
+<form>
+<p class="para">Lets get in touch and talk about your next project.</p>  
+ <div class="text">
+<div><input class="hii" type="text" placeholder="name" size="220px"></div></br>
+<br><div><input class="hii" type="text" placeholder="email" size="220px"></div></br>
+<br><div><input class="hii" type="text" placeholder="subject" size="220px"></div></br>
+<br><div><input class="hii"type="text" placeholder="comment" size="220px"></div></br>
+<button class="message">send message</button>
+</div>
+<div class="image2">
+    <img src="https://www.w3schools.com/w3images/map.jpg" width="1490px">
+</div>
+
+</form>
+</body>
+</html>
